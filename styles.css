@@ -1,0 +1,43 @@
+.floating-terminal {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: #000;
+  color: #fff;
+  font-family: monospace;
+  border-radius: 5px;
+}
+
+.terminal-header {
+  padding: 10px;
+  background-color: #333;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.terminal-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.terminal-body {
+  padding: 10px;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+#output {
+  margin: 0;
+}
+
+#command {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  outline: none;
+}
