@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Cloud Assistant</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="floating-terminal">
-    <div class="terminal-header">
-      <span class="terminal-title">Floating Terminal</span>
+    <div class="floating-terminal">
+        <div class="terminal-header">
+            <span class="terminal-title">Cloudy - Your Virtual Assistant</span>
+        </div>
+        <div class="terminal-body">
+            <pre id="output"></pre>
+            <input type="text" id="command" placeholder="Type 'ask', 'text person', or 'add contact'">
+        </div>
     </div>
-    <div class="terminal-body">
-      <pre id="output"></pre>
-      <input type="text" id="command" placeholder="Enter a command">
-    </div>
-  </div>
-  <script src="script.js"></script>
-  <script src="ai.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
